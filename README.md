@@ -1,14 +1,6 @@
-# Initialize a new Git repository
-git init
+# Create an images folder
+mkdir images
 
-# Add README file
-echo "# MTM6201 Midterm Project" >> README.md
+# Copy mockup image(s) to the images folder
+"C:\Users\goray\OneDrive\Pictures\placeit-003.webp" images/
 
-# Commit changes
-git add .
-git commit -m "Initial commit"
-
-# Create a new repository on GitHub and push code
-git remote add origin <repository_url>
-git branch -M main
-git push -u origin main
